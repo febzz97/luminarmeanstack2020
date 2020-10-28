@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+body{
+    background-color:rgb(252, 186, 3);
+}
+h2{
+    color:rgb(235, 3, 252)
+}
+#one{
+    color: royalblue;
+}
+div{
+    border-style: double;
+    border-color: slateblue;
+   
+}
+#two{
+    border-style: solid;
+    border-color: turquoise;
+}
+.third{
+    background-color: darkseagreen;
+    border-style: outset;
+    border-color: teal;
+    color: darkgreen;
+}
+li{
+    color: crimson;
+}

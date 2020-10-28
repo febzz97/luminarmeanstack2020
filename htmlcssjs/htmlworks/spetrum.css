@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Peddana', serif;
+}
+#tab{
+    margin-left: 25%;
+    text-align: center;
+}
+td{
+    width: 90;
+    height: 230;
+    padding:10;
+    border-style: dotted;
+}
+#one{
+    color: grey;
+    background-color: mediumblue;
+}
+#two{
+    color: hotpink;
+    background-color: royalblue;
+}
+#three{
+    color: lawngreen;
+    background-color: oldlace;
+}
+#four{
+    color: lightsalmon;
+    background-color: orchid;
+
+}
+#five{
+    color: maroon;
+    background-color: purple;
+}
