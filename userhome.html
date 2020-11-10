@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="transactions.js"></script>
+
+    </head>
+
+<body>
+    <h1>Welcome User </h1>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1>Deposit</h1>
+                <table>
+                    <tr>
+                        <td>accno</td>
+                        <td><input type="text" id="acno"></td>
+                    </tr>
+                    <tr>
+                        <td>pin</td>
+                        <td><input type="text" id="pin"></td>
+                    </tr>
+                    <tr>
+                        <td>Amount</td>
+                        <td><input type="text" id="amt"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="button" onclick="Bank.deposit()"    value="proceed"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <h1>withdraw</h1>
+                <table>
+                    <tr>
+                        <td>accno</td>
+                        <td><input type="text" id="accno"></td>
+                    </tr>
+                    <tr>
+                        <td>pin</td>
+                        <td><input type="text" id="pinno"></td>
+                    </tr>
+                    <tr>
+                        <td>Amount</td>
+                        <td><input type="text" id="amount"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="button" onclick="Bank.withdraw()"    value="proceed"></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
